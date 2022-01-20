@@ -1,0 +1,43 @@
+.form {
+    margin-right: 30px;
+    display: flex;
+    flex-flow: row;
+    border: 2px rgb(41, 126, 238) solid;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 3px 5px 3px 5px;
+    width: 200px;
+}
+
+.search_bar {
+    width: 100%;
+    background-color: #fff;
+    outline: none;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+}
+
+.search {
+    background: none;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.search:hover {
+    background-color: rgb(41, 126, 238);
+    border-radius: 5px;
+    color: #fff;
+}
+
+@media (max-width: 576px) {
+    .form {
+        margin-right: 0;
+        margin-bottom: 5px;
+        width: 80%;
+    }
+}

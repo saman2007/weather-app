@@ -1,0 +1,35 @@
+.hourly_forecast_item {
+    border: 1px solid rgba(255, 255, 255, 0.44);
+    min-height: 200px;
+    min-width: 130px;
+    background-color: rgba(15, 15, 15, 0.3);
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.icon {
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.temp {
+    font-weight: 600;
+    font-size: 21px !important;
+    color: #fff !important;
+    margin-bottom: 4px;
+}
+
+.situation {
+    font-size: 19px !important;
+    color: #fff !important;
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.hourly_forecast_item p {
+    color: rgb(192, 192, 192);
+    font-size: 18px;
+    font-weight: 200;
+}

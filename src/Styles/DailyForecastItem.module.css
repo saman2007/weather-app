@@ -1,0 +1,36 @@
+.weather_item {
+    background: rgba(15, 15, 15, 0.3);
+    backdrop-filter: blur(10px);
+    padding: 5px;
+    border-radius: 7px;
+    border: 1px solid rgba(255, 255, 255, 0.44);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-right: 10px;
+    max-width: 100px;
+    min-width: 100px;
+    cursor: pointer;
+}
+
+.weather_item.selected {
+    background: rgba(224, 216, 216, 0.3);
+}
+
+.weather_item:hover {
+    background: rgba(224, 216, 216, 0.3);
+}
+
+.date {
+    margin-bottom: 15px;
+    font-size: 21px;
+    color: #fff;
+}
+
+.weather_item p {
+    font-size: 18px;
+    margin-bottom: 4px;
+    text-align: center;
+    color: #fff;
+}

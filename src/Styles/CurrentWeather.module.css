@@ -1,0 +1,76 @@
+.current_weather_container {
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(12px);
+    margin-top: 140px;
+    width: 50%;
+    min-height: 200px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 5px;
+    border-radius: 7px;
+    border: 1px solid rgba(255, 255, 255, 0.44);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.place {
+    font-size: 35px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.weather_icon {
+    width: 90px;
+    margin-right: 20px;
+}
+
+.temp {
+    font-size: 20px;
+}
+
+.temp_sign {
+    margin-bottom: 10px;
+    font-size: 18px;
+    padding: 2px;
+    background: none;
+    border: rgb(41, 126, 238) 2px solid;
+    cursor: pointer;
+}
+
+.active {
+    background-color: rgb(41, 126, 238);
+    color: #fff;
+}
+
+.situation {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.more_infos {
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+
+.more_infos p {
+    margin-bottom: 5px;
+}
+
+.time {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    .current_weather_container {
+        width: 80%;
+    }
+}
+
+@media (max-width: 576px) {
+    .current_weather_container {
+        width: 90%;
+        margin-top: 100px;
+    }
+}
